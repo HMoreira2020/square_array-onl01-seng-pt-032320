@@ -3,3 +3,6 @@ def square_array(numbers)
   numbers.each {|number| new_array.push(number ** 2)}
   return new_array
 end
+
+def square_array_with_collect(numbers)
+  
